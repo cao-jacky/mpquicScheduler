@@ -17,7 +17,7 @@ import conn as glueConnection
 import read_mpd
 import urlparse
 import urllib2
-#import httplib
+import httplib
 import ssl
 import socket
 import struct
@@ -54,7 +54,7 @@ PLAYBACK = DEFAULT_PLAYBACK
 DOWNLOAD = False
 SEGMENT_LIMIT = None
 # Settings for the download connection
-QUIC = False
+QUIC = True
 MP = False
 NO_KEEP_ALIVE = False
 SCHEDULER = 'lowRTT'
